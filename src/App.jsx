@@ -8,10 +8,15 @@ function App() {
 
   return (
     <>
-      <img data-testid="hello" alt="hello" width="200px" src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*t7lx34vYoJ8lAeNU6un7_g.jpeg" alt="" />
+      <img
+        data-testid="hello"
+        alt="hello"
+        width="200px"
+        src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*t7lx34vYoJ8lAeNU6un7_g.jpeg"
+      />
       <div>
-        <input type="text" onChange={handleInput} placeholder="Type your name" />
-        <h1>Hello {text}</h1>
+        <input type="text" onChange={handleInput} alt="hello" placeholder="Type your name" />
+        <h1>hello {text}</h1>
       </div>
     </>
   )
